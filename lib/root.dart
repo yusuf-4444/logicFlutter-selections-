@@ -4,6 +4,7 @@ import 'package:logic_flutter_selections/screens/image_selection.dart';
 import 'package:logic_flutter_selections/screens/image_upload.dart';
 import 'package:logic_flutter_selections/screens/multi_image_upload.dart';
 import 'package:logic_flutter_selections/screens/multi_selection.dart';
+import 'package:logic_flutter_selections/screens/search_filter.dart';
 import 'package:logic_flutter_selections/screens/single_selection.dart';
 import 'package:logic_flutter_selections/screens/toggle_selection.dart';
 import 'package:logic_flutter_selections/screens/video_upload.dart';
@@ -27,6 +28,7 @@ class _RootState extends State<Root> {
     MultiImageUpload(),
     VideoUpload(),
     FileUpload(),
+    SearchFilter(),
   ];
 
   @override
