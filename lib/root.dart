@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:logic_flutter_selections/screens/file_upload.dart';
+import 'package:logic_flutter_selections/screens/form_validation.dart';
 import 'package:logic_flutter_selections/screens/image_selection.dart';
 import 'package:logic_flutter_selections/screens/image_upload.dart';
 import 'package:logic_flutter_selections/screens/multi_image_upload.dart';
 import 'package:logic_flutter_selections/screens/multi_selection.dart';
+import 'package:logic_flutter_selections/screens/pagination.dart';
 import 'package:logic_flutter_selections/screens/search_filter.dart';
 import 'package:logic_flutter_selections/screens/single_selection.dart';
 import 'package:logic_flutter_selections/screens/toggle_selection.dart';
@@ -29,6 +31,8 @@ class _RootState extends State<Root> {
     VideoUpload(),
     FileUpload(),
     SearchFilter(),
+    FormValidation(),
+    Pagination(),
   ];
 
   @override
